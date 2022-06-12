@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/css/style.css">
+<section id="editar" >
+  <img src="https://wallpaperaccess.com/full/1145794.png" alt=""> 
+   <div>
+<h2>Atualização de Anime</h2>
+<form action="/update/<%= anime.id %>" method="POST">
+    <label for="nome">Nome:</label>
+    <input type="text" required id="nome" name="nome" value="<%= anime.nome %>">
+    <label for="sinopse">Sinopse:</label>
+    <input type="text" required id="sinopse" name="sinopse" value="<%= anime.sinopse %>">
+    <label for="genero">Genero:</label>
+    <input type="text" required id="genero" name="genero" value="<%= anime.genero %>">
+    <label for="imagem">Link da Imagem</label>
+    <input type="text" required id="imagem" name="imagem" value="<%= anime.imagem %>">
+    <button id="btnAtualizar" type="submit">Atualizar</button>
+</form>
+</div>
+</section>
