@@ -33,7 +33,14 @@ const Anime = database.sequelize.define("anime",{
         updateAt: false
       })
 
-      module.exports = Anime
+    
+const initTable = async () =>{
+  await Anime.sync();
+}
+
+initTable()
+
+module.exports = Anime
 
       
 
