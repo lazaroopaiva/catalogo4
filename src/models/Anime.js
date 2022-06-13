@@ -18,7 +18,7 @@ const Anime = database.sequelize.define("anime",{
         allowNull: false,
       },
       genero: {
-        type: Sequelize.DECIMAL,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       imagem: {
