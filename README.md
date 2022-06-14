@@ -8,7 +8,7 @@ link do Projeto:
 # Detalhes²
 Dentre todas as referências, com toda certeza a que mais contribuiu para a conclusão do projeto foi o site oficial da konami.
 
-Link do site:
+Link do site:https://catalogo4blue.herokuapp.com/
 
 # Stacks
 Projeto concebido utilizando as tecnologias: EJS / JavaScript / Express / Nodemon / SQL
